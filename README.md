@@ -4,24 +4,35 @@ Secure Communication Channel
 The objective of this project was to design and implement a secure communication channel using encryption algorithms. I chose to use the Advanced Encryption Standard (AES) and my work was done using Python. This project involved creating both server and client applications that could exchange encrypted messages securely over a network.
 
 #Tools Used
+
 *Programming Language: Python 3
+
 *Cryptographic Library: pycryptodome for AES encryption and decryption
+
 *Network Programming: Python's socket library for establishing communication between the client and server
+
 *Basic Graphical User Interface (GUI): tkinter (optional, if you are adding GUI components)
 
 Project Structure
 The project directory (SecureCommunication) contains the following key files:
 
 *server_gui.py: A script to start the server application with a graphical user interface (GUI).
+
 *client_gui.py: A script to start the client application with a graphical user interface (GUI).
+
 *Encryption.py: A script to handle the encryption and decryption of the messages sent across the network.
+
 *Other necessary files and directories for project configuration and support.
 
 #Implementation Steps
-AES Encryption and Decryption
-Implemented functions for encrypting and decrypting messages using the AES algorithm.
-Used CBC (Cipher Block Chaining) mode for encryption.
-Ensured messages were padded to match the block size required by AES.
+
+*AES Encryption and Decryption
+
+*Implemented functions for encrypting and decrypting messages using the AES algorithm.
+
+*Used CBC (Cipher Block Chaining) mode for encryption.
+
+*Ensured messages were padded to match the block size required by AES.
 
 #Server and Client Communication
 
